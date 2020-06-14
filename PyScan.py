@@ -10,6 +10,16 @@ urllib3.disable_warnings()
 
 open_ports = []
 
+title = """
+ ____        ____                  
+|  _ \ _   _/ ___|  ___ __ _ _ __  
+| |_) | | | \___ \ / __/ _` | '_ \ 
+|  __/| |_| |___) | (_| (_| | | | |
+|_|    \__, |____/ \___\__,_|_| |_|
+        |___/                       
+"""
+print(title)
+
 #Sets socket lockout time for port status accuracy
 socket.setdefaulttimeout(0.55)
 
